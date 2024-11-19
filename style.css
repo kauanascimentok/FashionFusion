@@ -8,79 +8,162 @@
   body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: #fdfdfd;
+    color: #ffffff;
+    background: #ffffff;
   }
   
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+  .text-container {
+    text-align: center;
+}
+
+.text-1 {
+    font-size: 5.5em;
+    font-style: italic;
+    color: #F08C7C; 
+    margin: 0.5em 0;
+    
+ 
+}
+
+.text-2 {
+    font-size:  5.5em;
+    font-weight: bold;
+    color: #000; 
+    margin: 0.5em 0;
+}
+
+.text-3 {
+    font-size:  5.5em;
+    font-weight: bold;
+    color: #F08C7C; 
+    margin: 0.5em 0;
+   
+}
+
+.text-4 {
+    font-size:  5.5em;
+    font-weight: bold;
+    color: #000; 
+}
+.text-5{
+
+  font-size:  5.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+.highlight {
+    color: #F08C7C; 
+}
+  
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
   }
   
-  /* Header */
   .header {
-    background: #f5a9b8;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .header .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    background-color:#F08C7C;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
   }
   
   .logo {
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav ul li {
-    margin: 0 15px;
-  }
-  
-  .nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-  
-  .nav ul li a:hover {
-    color: #333;
-  }
-  
-  .search-cart {
     display: flex;
     align-items: center;
-    color: #fff;
   }
   
-  .search-cart input {
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
+  .logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-top: 1px solid ;
+    height: 150px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
     margin-right: 10px;
   }
   
-  .search-cart img {
-    width: 25px;
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
   }
-
+  
+  .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 60%;
+    max-width: 600px;
+    background-color: #F3E9DC;
+  }
+  
+  .search input {
+    border: none;
+    padding: 5px 10px;
+    flex: 1;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search button:hover {
+    background-color: #ddd;
+  }
   .hero {
-    background: #ffe3e8;
-    padding: 50px 0;
+    background: #fffdfd;
     background-image: url("./assent/banner.png");
-    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+    width: 100%;
   }
   
   .hero-content {
@@ -125,12 +208,13 @@
   }
   
   .product-card {
-    background: #fff;
+    background: #F08C7C;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    background-color: but;
   }
   
   .product-card img {
@@ -181,12 +265,12 @@
   }
   
   .footer-col ul li a {
-    color: #f5a9b8;
+    color: #F08C7C;
     text-decoration: none;
     transition: color 0.3s;
   }
   
   .footer-col ul li a:hover {
-    color: #fff;
+    color: #F3E9DC;
   }
   
